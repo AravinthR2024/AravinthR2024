@@ -1,0 +1,34 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+canvas,
+button,
+input {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+button {
+    border-color: #466baf;
+    padding: 10px;
+    text-transform: uppercase;
+    font-family: 'Signika', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    background-color: #466baf;
+}
+
+button:hover,
+button:focus,
+button:active,
+button.active {
+    border-color: #fff;
+    color: #fff;
+    background-color: #466baf;
+}
