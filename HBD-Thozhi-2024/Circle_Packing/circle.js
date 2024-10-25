@@ -10,6 +10,11 @@ class Circle {
     grow() {
       if (this.growing) {
         this.r += 0.5;
+
+        if (this.r > 20)
+        {
+            this.growing = false;
+        }
       }
     }
   
